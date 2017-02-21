@@ -1,0 +1,24 @@
+{
+  "name": "BowerAndGulp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Guruvardhanarao <guruvardhanaraopanidam@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Guruvardhanarao/AngularProject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "underscore": "^1.8.3",
+    "jquery": "^3.1.1"
+  }
+}
