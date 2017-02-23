@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="">
+    <head>
+        <title>class1</title>
+        <script src="bower_components/angular/angular.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <input type="text" ng-model="firstName">
+        <input type="text" ng-model="lastName">
+        <p>{{firstName}}{{lastName}}</p>
+        
+        <input type="checkbox" ng-model="checkbox">
+        <p>{{checkbox}}</p>
+        
+        <input type="radio" name="gender" ng-model="M" value="M"> 
+        <input type="radio" name="gender" ng-model="F" value="F">
+        <p>{{M}}</p>
+        <p>{{F}}</p>
+    </body>
+</html>
