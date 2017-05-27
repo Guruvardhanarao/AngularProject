@@ -1,0 +1,23 @@
+{
+  "name": "controllerCreation",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Guruvardhanarao <guruvardhanaraopanidam@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Guruvardhanarao/AngularProject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "angular": "^1.6.2",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

@@ -1,0 +1,15 @@
+<table style="border-collapse; margin-left:50px;">
+    <thead>
+        <tr style="border:1px solid blue">
+        <th style="border:1px solid blue">Country Name</th>
+        <th style="border:1px solid blue">Country Code</th>
+        </tr>
+    </thead>
+    
+    <tbody style="border:1px solid blue">
+        <tr style="border:1px solid blue" ng-repeat="country in cd.countriesList">
+            <td style="border:1px solid blue">{{country.name}}</td>
+            <td style="border:1px solid blue">{{country.code}}</td>
+        </tr>
+    </tbody>
+</table>

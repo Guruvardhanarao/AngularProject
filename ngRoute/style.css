@@ -1,0 +1,18 @@
+.header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.left {
+    height: 500px;
+    text-align: center; 
+}
+
+.right {
+    height: 500px;
+}
+
+.commonLnkCls {
+    padding-bottom: 20px;
+}

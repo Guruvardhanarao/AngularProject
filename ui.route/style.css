@@ -1,0 +1,31 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;   
+}
+
+.linkbar {
+    background-color: darksalmon;
+    min-height: 500px;
+    
+}
+
+.leftnav {
+    background-color: aqua;
+    
+    color: black;
+    height: 500px;
+}
+
+.rightnav {
+    text-align: center;
+    color: white;   
+}

@@ -1,0 +1,33 @@
+<html ng-app="app">
+    <head>
+        <title>service</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    </head>
+    
+    <body ng-controller="processStr">
+        
+        <table>
+            <tr>
+                <td>Your String</td>
+                <td>
+                    <input type="text" ng-model="strng" />
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Result</td>
+                <td><input type="text" ng-model="res" /></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td><button ng-click="getSpace()">Process String</button></td>
+            </tr>
+        </table>
+        
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>

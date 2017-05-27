@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>practice</title>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body ng-app="myModule">
+      
+        <a href="#/home">Home</a>
+      <div ui-view></div>
+      <script src="app/app.js"></script>
+
+<!--
+        <div ng-controller="myCtrl">
+            <div>
+                {{country.name}}
+            </div>
+            
+            <div>
+                {{country.capital}}
+            </div>
+
+            <div>
+                <img ng-src="{{country.flag}}" alt="India flag" />
+            </div>
+
+        
+        </div>
+-->
+        
+        
+        
+<!--
+        <div ng-controller="countryLst">
+        
+            <div>
+                <ul>
+                
+                    <li ng-repeat="country in countryLst">
+                        {{country.name}} ,index = {{$index}}
+                        <ul>
+                            <li ng-repeat="city in country.cities">
+                                {{city}} , parent-index = {{$parent.$index}} , index = {{$index}}
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+-->
+        
+        
+<!--
+        <div ng-controller="technologies">
+        
+            <div class="tbl">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Likes</td>
+                            <td>DisLikes</td>
+                            <td>Like/DisLike</td>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr ng-repeat="technology in technologies">
+                            <td>{{technology.name}}</td>
+                            <td>{{technology.likes}}</td>
+                            <td>{{technology.disLikes}}</td>
+                            <td>
+                                <button ng-click="incrementLikes(technology)">like</button>
+                                <button ng-click="incrementdislikes(technology)">dislike</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+        </div><br>
+-->
+        
+<!--
+        <div ng-controller="filters">
+            
+            No of rows to display <input type="number" max="5" min="1" step="1" ng-model="rowLimit">
+            Sort By <select>
+                        <option>Name ASC</option>
+                        <option>Date Of Birth ASC</option>
+                        <option>Gender ASC</option>
+                        <option>Salary ASC</option>
+                    </select>
+            <br><br>
+        
+            <table>
+            
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date Of Birth</th>
+                        <th>Gender</th>
+                        <th>Salary(number)</th>
+                        <th>Salary(currency)</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr ng-repeat="employee in employees | limitTo:rowLimit | orderBy:-sortColumn">
+                        <td>{{employee.name | uppercase}}</td>
+                        <td>{{employee.dateOfBirth | date:"dd/MM/yyyy"}}</td>
+                        <td>{{employee.gender | lowercase}}</td>
+                        <td>{{employee.salary | number:2}}</td>
+                        <td>{{employee.salary | currency:"*"}}</td>
+                    </tr>
+                </tbody>
+            
+            </table>
+        </div>
+        
+-->
+        
+        
+        
+<!--
+        <script src="app/app.js"></script>
+        <script src="app/displayCountry/country.js"></script>
+        <script src="app/countyTownLst/countyTownLst.js"></script>
+        <script src="app/TechnologiesLst/technologies.js"></script>
+        <script src="app/filters/filters.js"></script>
+        <script src="app/routing/routing.js"></script>
+-->
+    </body>
+</html>

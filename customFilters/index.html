@@ -1,0 +1,40 @@
+<html ng-app="app">
+    <head>
+        <title>custom directives</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    </head>
+    
+    <body ng-controller="appController">
+        Hide Salary : <input type="checkbox" name="salCtrl" ng-model="hideSal" />
+        <br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Disignation</th>
+                    <th>Age</th>
+                    <th ng-hide="hideSal">Salary</th>
+                    <th ng-show="hideSal">Salary</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{employee.name | myFilter}}</td>
+                    <td>{{employee.gender}}</td>
+                    <td>{{employee.disignation}}</td>
+                    <td>{{employee.age}}</td>
+                    <td ng-hide="hideSal">{{employee.salary}}</td>
+                    <td ng-show="hideSal">********</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <script src="app.js"></script>
+        <script src="appController.js"></script>
+        <script src="filters.js"></script>
+    </body>
+</html>

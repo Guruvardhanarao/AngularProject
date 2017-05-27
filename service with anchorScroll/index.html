@@ -1,0 +1,39 @@
+<html ng-app="app">
+    <head>
+        <title>
+            Service and AnchorScroll
+        </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    </head>
+    
+    <body ng-controller="countryCtrl">
+        
+        
+        <span ng-repeat="country in coun">
+        
+            <button ng-click="goToLocation(country.name)">{{country.name}}</button>
+            
+        </span>
+        
+        <div>
+        
+            <fieldset ng-repeat="country in coun" id="{{country.name}}">
+            
+                <legend>{{country.name}}</legend>
+                <ul ng-repeat="city in country.cities">
+                
+                    <li>{{city}}</li>
+                    
+                </ul>
+            </fieldset>
+            
+        </div>
+        
+        
+        
+        
+        <script src="app.js"></script>
+        <script src="countries.json"></script>
+    </body>
+</html>

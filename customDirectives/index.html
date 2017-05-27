@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>custom directives</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    
+    <body>
+        <div ng-app="app">
+            <!--<script type="text/ng-template" id="my-info-msg.html"><h6>{{cd.msg}}</h6></script>-->
+            <div ng-controller="custDirective as cd">
+                <my-info-msg>
+                
+                </my-info-msg>
+                
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+        <script src="myService.json"></script>
+    </body>
+</html>

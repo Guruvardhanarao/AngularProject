@@ -1,0 +1,18 @@
+<html ng-app="app">
+    <head>
+            <title>services</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    </head>
+    
+<body ng-controller="calC">
+        Enter First Number: <input type="text" ng-model="a" name="aValue">
+        Enter Second Number: <input type="text" ng-model="b" name="bValue"><br><br>
+        Result: <input type="text" ng-model="res" name="r"><br><br>
+        <button name="addBtn" ng-click="doAddition()">+</button>
+        <button name="addBtn" ng-click="doSubtraction()">-</button>
+        <button name="addBtn" ng-click="doMultiplication()">*</button>
+        <button name="addBtn" ng-click="doDivision()">/</button>
+        
+        <script src="app.js"></script>
+    </body>
+</html>

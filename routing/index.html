@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+        ROUTING
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body ng-app="myApp">
+<!--
+        <a href="#/">home</a>|
+        <a href="#/products">products</a>|
+        <a href="#/services">services</a>|
+        <a href="#/contact">contact</a>
+-->
+        
+        
+<!--
+        <a ui-sref="homeState">HOME</a>|
+        <a ui-sref="productsState">PRODUCTS</a>|
+        <a ui-sref="servicesState">SERVICES</a>|
+        <a ui-sref="contactState">CONTACT US</a>
+        <ui-view>
+        
+        </ui-view>
+-->
+        
+        <div class="row">
+        
+            <div class="col-sm-12 well">
+            Header | <a href="#home">Home</a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-3 well" style="heigt: auto; min-height: 100% !important">
+            
+                <ul>
+                    <li><a ui-sref="productsState">PRODUCTS</a></li>
+                    <li><a href="#/services/20/90">Services</a></li>
+<!--                    <li><a ui-sref='servicesState({x:100,y:200})'>SERVICES</a></li>-->
+                    <li><a ui-sref="contactState">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 well" style="heigt: auto; min-height: 100% !important">
+                <ui-view>
+                
+                </ui-view>
+            </div>
+        </div>
+        
+        
+        
+        <script src="myModule.js"></script>
+        <script src="myController.js"></script>
+        <script src="productsCtrl.js"></script>
+        <script src="servicesCtrl.js"></script>
+        <script src="contactCtrl.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "name": "Guruvardhanarao",
+            "id": "1001",
+            "disignation": "Team Lead",
+            "salary": "70000"
+        },
+        
+        {
+            "name": "Veerababu",
+            "id": "1002",
+            "disignation": "Automobile Engineer",
+            "salary": "50000"
+        },
+        
+        {
+            "name": "Chiru",
+            "id": "1003",
+            "disignation": "Assistent",
+            "salary": "10000"
+        },
+        
+        {
+            "name": "Poori",
+            "id": "1004",
+            "disignation": "Bank Officer",
+            "salary": "20000"
+        }
+    ]
+}

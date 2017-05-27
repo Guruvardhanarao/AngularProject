@@ -1,0 +1,6 @@
+table{
+    border-collapse: collapse;
+}
+td,th{border: 1px solid blue;
+text-align: center;
+padding: 10px;}

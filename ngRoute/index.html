@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <title>NG ROUTE</title>
+        
+        <base href="/" />
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+        
+        
+    </head>
+    
+    <body ng-app="app">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-xs-12 header">
+                    <h1>ngRoute Example</h1>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+            
+                <div class="col-xs-3 well left">
+                    <div class="commonLnkCls">
+                        <a href="home">Home</a>                       
+                    </div>
+                    
+                    <div class="commonLnkCls">
+                        <a href="courses">courses</a>
+                    </div>
+                    
+                    <div class="commonLnkCls">
+                        <a href="students">students</a>
+                    </div>
+                </div>
+                
+                <div class="col-xs-9 right well">
+                    <div ng-view>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>

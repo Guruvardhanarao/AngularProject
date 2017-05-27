@@ -1,0 +1,22 @@
+<html ng-app="app">
+    <head>
+        <title>ng Include</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    </head>
+    
+    <body ng-controller="myController">
+        
+        <select ng-model="tableView">
+            <option value="table.html">table</option>
+            <option value="list.html">list</option>
+        </select>
+        
+        <div ng-include="tableView"></div>
+        
+        
+        <script src="app.js"></script>
+        <script src="myController.js"></script>
+        
+    </body>
+</html>

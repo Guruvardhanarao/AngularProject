@@ -1,0 +1,183 @@
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: dimgray !important;
+}
+
+
+
+
+
+.headstyle a {
+    color: white !important;
+    font-size: 25px;
+}
+
+.navitems li a{
+    color: white !important;
+}
+
+
+.navitems li a:hover {
+  background-color: white !important;
+  color: black !important; 
+}
+
+.inrtoduc {
+    background-color:darkgrey;
+    padding: 60px;
+}
+
+.inrtoduc img {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.inrtoduc-txt {
+    margin: 50px;
+    color: white;
+}
+
+.inrtoduc-txt p{
+    font-size: 22px;
+    text-align: right;
+    
+}
+
+.inrtoduc-txt hr {
+    width: 80%;
+    border: none;
+    height: 5px;
+    background-color: white;
+    
+}
+
+
+.inrtoduc-txt h1 {
+    margin-top: 3px;
+    margin-left: -80px;
+}
+
+.inrtoduc-txt1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.portfolio {
+    background-color: floralwhite;
+    padding-bottom: 60px;
+}
+
+.portfolio p {
+    font-size: 26px;
+    color: darkslateblue;
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+
+.portfolio hr {
+    height: 5px;
+    border: none;
+    background-color: darkslateblue;
+}
+
+.portfolio h1{
+    position: relative;
+    top:-17px;
+    left: -20px;
+    font-weight: 700;
+    color: darkslateblue;
+}
+
+.port-img img {
+    padding-bottom: 25px;
+}
+
+.contact-sec {
+    background-color: white;
+    min-height: 500px;
+}
+
+.contact-sec p {
+    font-size: 26px;
+    color: darkslateblue;
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+
+.contact-sec hr {
+    height: 5px;
+    border: none;
+    background-color: darkslateblue;
+}
+
+.contact-sec h1{
+    position: relative;
+    top:-17px;
+    left: -20px;
+    font-weight: 700;
+    color: darkslateblue;
+}
+
+.form-Styl {
+    padding-left: 60px;
+    font-size: 16px;
+    
+}
+
+.contact-txt p {
+    font-size:16px; text-align: center; line-height: 25px; padding: 20px;
+}
+
+.social-sec {
+    min-height: 200px;
+    background-color: darkslateblue;
+}
+
+.social-txt {
+    color: white;
+    padding-top: 70px;
+}
+
+.social-txt p a{
+    color: chartreuse;
+}
+
+.social-txt ul{
+    list-style: none;
+    margin-left: -10px;
+}
+.social-txt li{
+    display: inline;
+}
+
+.social-txt li a{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.social-txt li a:hover {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;  
+}
+
+.footer {
+    background-color: black;
+    color: darkgray;
+}
+@media all and (max-width: 480px) {
+    .inrtoduc-txt h1 {margin: 0px;}
+    .inrtoduc-txt hr {width: 50%;}
+}
+
+
+@media all and (max-width: 370px) {
+    .inrtoduc-txt p {
+        font-size: 16px;
+        text-align: center;
+    }   
+}

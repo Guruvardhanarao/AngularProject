@@ -1,0 +1,20 @@
+{
+    "countires": [
+        
+        {"name": "India",
+        "cities": ["Amaravathi", "hyderabad", "Banglore", "Mumbai", "Pune", "Chennai"],
+         "code": "IN"
+        },
+        
+        {"name": "America",
+        "cities": ["Washinton", "Newyork", "huwai", "NewJersi", "California"],
+         "code": "USA"
+        },
+        
+        {"name": "Austrelia",
+        "cities": ["Canberra", "Captown", "Jangil", "Mangil", "Pungil", "Chemgil"],
+         "code": "AUS"
+        }
+        
+]
+}

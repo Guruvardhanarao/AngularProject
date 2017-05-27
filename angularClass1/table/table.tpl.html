@@ -1,0 +1,32 @@
+<html ng-app="tableModule">
+    <head>
+       
+    </head>
+    
+    <body>
+<div ng-controller="tableCtrl as tc" >
+    <table>
+        <thead>
+            <tr>
+            <td>ID</td>
+            <td>NAME</td>
+            <td>SALARY</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr class="tbl" ng-repeat="employee in tc.employees">
+                <td>{{employee.id}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.salary}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+      
+        
+        <script src="table.js"></script>
+        <script src="tableCtrl.js"></script>
+ </body>
+</html>

@@ -1,0 +1,17 @@
+<div class="col-md-3" style="border:1px solid blue; margin:20px 20px; padding:20px; background:lightblue" ng-controller="loginCtrl">
+             <form>
+                  <div class="form-group">
+                    <label for="email">User Name:</label>
+                    <input type="text" class="form-control" ng-model="userName">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" ng-model="pwd">
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+                  <button type="submit" class="btn btn-default" ng-click = "submit()">Submit</button>
+                  <button type="button" class="btn btn-default">Reset</button>
+             </form>
+</div>

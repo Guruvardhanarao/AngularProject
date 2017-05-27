@@ -1,0 +1,27 @@
+<html>
+
+    <head>
+        <title>controller as syntax</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    </head>
+    
+    <body ng-app="app">
+        <div ng-controller="countryController as countryCtrl">
+        
+            <h1>{{countryCtrl.name}}</h1>
+        
+        
+                <div ng-controller="stateController as stateCtrl">
+
+                    <h1>{{countryCtrl.name}}-{{stateCtrl.name}}</h1>
+        
+        <div ng-controller="cityController as cityCtrl">
+        
+            <h1>{{countryCtrl.name}}-{{stateCtrl.name}}-{{cityCtrl.name}}</h1>
+        </div>
+        </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>

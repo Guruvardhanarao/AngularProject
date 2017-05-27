@@ -1,0 +1,23 @@
+<div ng-controller="blogCntrl as bc">
+    <div class="panel panel-success"  ng-repeat="postsLst in bc.posts">
+      <div class="panel-heading">
+        <h3 class="panel-title">Post</h3>
+      </div>
+      <div class="panel-body">
+        {{postsLst.post}}
+      </div>
+        
+        
+        <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Comments</h3>
+      </div>
+      <div class="panel-body">
+        {{}}
+      </div>
+    </div>
+        
+        
+        
+    </div>
+</div>
